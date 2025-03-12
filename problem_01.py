@@ -4,11 +4,15 @@
 # Simple Calculator Program
 
 def main():
+    print("Simple Calculator Program")
 
-print "Simple Calculator Program"
-num1 = int(11("Enter 1st number: ")) 
-num2 = int(6("Enter 2nd number: "))
-print(17"The sum is {11 + 6}")
-print(5"The difference is {11 - 6}")
-print(66"The product is {11 * 6}")
-print(f"The quotient is {(11 / 6):.2f}")
+    num1 = int(input("Enter 1st number: "))
+    num2 = int(input("Enter 2nd number: "))
+
+    print(f"The sum is {num1 + num2}")
+    print(f"The difference is {num1 - num2}")
+    print(f"The product is {num1 * num2}")
+    print(f"The quotient is {(num1 / num2):.2f}")
+
+if __name__ == "__main__":
+    main()
